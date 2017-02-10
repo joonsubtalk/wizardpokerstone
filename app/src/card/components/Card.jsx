@@ -16,7 +16,7 @@ class Card extends Component {
   render() {
     return (
       <div className="card">
-        <ManaCost />
+        <ManaCost cost={3} />
         <div className="cardTitle">{this.state.cardTitle}</div>
         <div className="attackPoint">{this.state.attackPoint}</div>
         <div className="hitPoint">{this.state.hitPoint}</div>
