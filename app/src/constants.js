@@ -1,0 +1,2 @@
+export const SET_CARD_TITLE = 'SET_CARD_TITLE';
+export const REMOVE_CARD_TITLE = 'REMOVE_CARD_TITLE';
