@@ -5,7 +5,6 @@ export const setCardTitle = (text) => {
     type: SET_CARD_TITLE,
     text
   }
-  console.log('action in setCardTitle', action);
   return action;
 }
 
@@ -14,6 +13,5 @@ export const removeCardTitle = (id) => {
     type: REMOVE_CARD_TITLE,
     id
   }
-  console.log('action in removeCardTitle', action);
   return action;
 }

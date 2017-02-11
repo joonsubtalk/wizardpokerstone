@@ -23,9 +23,12 @@ class App extends Component {
   }
 
   renderText() {
-    const {cards} = this.props;
+//    const {cards} = this.props;
+    return (<div>fff</div>)
+      /*
     return (
       <ul>
+
         {
           cards.map(cards => {
             return (
@@ -44,6 +47,8 @@ class App extends Component {
         }
       </ul>
     )
+
+    */
   }
 
   render() {
